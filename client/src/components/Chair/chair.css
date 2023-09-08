@@ -1,0 +1,14 @@
+.chair-container {
+    position: relative;
+    height: calc(100vh /4.6);
+    width: calc(100vh /5);
+    background: rgb(43, 35, 35);
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.chair-container:hover {
+    background: rgb(61, 60, 60);
+}
